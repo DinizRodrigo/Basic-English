@@ -1,0 +1,148 @@
+#mymenuda {
+	background-color: rgb(178,186,204);
+	border-left: 50px solid #CD6090; /* tamanho da borda e cor- não retire pq ela centraliza o menu */
+	border-color: rgb(178,186,204);
+
+	width: 100%;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999; 
+}
+
+#mymenu {
+	background: #333333; /* cor da fonte */
+	font-family: 'Arial', corsiva; /* nome da fonte */
+	font-size: 20px; /* titulo da fonte */
+	text-transform: uppercase; 
+}
+
+#mymenu li {
+	list-style-type: none;
+	display: inline;
+	float: left; /* posicionamento do menu */
+	padding: 0px;
+}
+#mymenu li img{
+	padding-top: 5px;
+	padding-right: 20px;
+}
+
+#mymenu li a {
+	color: #333333;
+	text-decoration: none;
+	padding-right: 24px;
+	line-height: 42px;
+}
+
+#mymenu a:hover {
+	color: black; 
+}
+
+#mymenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+	background: #e3e4e5;;
+	margin-left: 10px;/*40*/
+	border: 1px solid #848587;
+	/*border-left : 1px solid #848587;
+	border-right: 1px solid #848587;*/
+}
+
+#mymenu li ul {
+	z-index: 9999;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 150;/*120*/
+	padding-left: -40px;/*-40*/
+
+}
+
+#mymenu li ul li:hover{
+	background-color:#85b1f7;	
+}
+/*#mymenu li ul li{
+	border-bottom: 1px solid #848587;	
+}*/
+#mymenu li ul a {
+	font-size: 13px;
+	line-height: 24px;
+}
+
+#mymenu li:hover ul ul, 
+#mymenu li:hover ul ul ul, 
+#mymenu li.sfhover ul ul, 
+#mymenu li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#mymenu li:hover ul, 
+#mymenu li li:hover ul, 
+#mymenu li li li:hover ul, 
+#mymenu li.sfhover ul, 
+#mymenu li li.sfhover ul, 
+#mymenu li li li.sfhover ul {
+	left: auto;
+}
+#mymenumobileda {
+	display: none;
+	
+	font-family: 'Arial', corsiva; /* nome da fonte */
+	font-size: 20px; /* titulo da fonte */
+	text-transform: uppercase; 
+}
+#mymenumobile{
+	position: absolute;
+	display: none;
+	list-style-type: none;
+	background-color: #e3e4e5;
+	border: 1px solid #848587;
+	font-family: 'Arial', corsiva; /* nome da fonte */
+	font-size: 14px; /* titulo da fonte */
+	text-transform: uppercase; 
+	padding: 5px;
+}
+#mymenumobile li {
+	list-style-type: none;
+	padding: 0px;
+}
+#mymenumobile li:hover {
+	background-color: rgb(178,186,204);
+}
+
+#mymenumobile li a {
+	color: #333333;
+	text-decoration: none;
+	padding-right: 10px;
+	line-height: 42px;
+}
+
+#mymenumobile a:hover {
+	color: black; 
+	/* cor do link da fonte em hover */
+}
+
+#mymenumobile ul {
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+	/*background: #dcdcdc;*/
+	margin-left: 10px;/*40*/
+	/*border-top: 1px solid #848587;
+	border-left : 1px solid #848587;
+	border-right: 1px solid #848587;*/
+}
+
+
+#mymenumobile li ul li:hover{
+	background-color:#85b1f7;
+}
+#mymenumobile li ul a {
+	font-size: 13px;
+	line-height: 24px;
+}

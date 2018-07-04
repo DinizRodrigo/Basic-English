@@ -1,0 +1,32 @@
+body{
+	width: auto;
+	height: auto;
+	padding-top: 250px;
+}
+
+.minha{
+	margin: 100px;
+	padding-top: 30px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+
+ }
+
+#logotipo{
+	width: 320px;
+}
+
+#btnLogin{
+    width: 100px;
+    position: relative;
+}
+
+.row{
+	width: 100%;
+}
+
+h6{
+	font-family: "Arial";
+	font-size: 64px; 
+	color: rgb(255,255,255);
+}
