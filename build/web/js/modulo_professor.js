@@ -5,19 +5,19 @@ window.onload= function(){
     form_acao.btn_incluir.onclick = function(){
     formquestao.style.display = "inline";
     form_excluir.style.display = "none";
-    form_atualizar.style.display = "none";
+    form_att.style.display = "none";
     };   
    
     form_excluir.style.display="none";
     form_acao.btn_remover.onclick = function(){
     form_excluir.style.display = "inline";
     formquestao.style.display = "none";
-    form_atualizar.style.display = "none";
+    form_att.style.display = "none";
        };
        
-    form_atualizar.style.display="none";
+    form_att.style.display="none";
     form_acao.btn_atualizar.onclick = function(){
-    form_atualizar.style.display = "inline";
+    form_att.style.display = "inline";
     formquestao.style.display = "none";
     form_excluir.style.display = "none";
        };
@@ -28,7 +28,7 @@ window.onload= function(){
 	    modulo_selecionado = $(this).find("#td_modulo").text();
 });
 
-}
+};
 
 
  

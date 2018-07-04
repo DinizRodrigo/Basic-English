@@ -16,7 +16,7 @@
 			<div id="mymenuda">
 					<div id="mymenu">
 						<li><img id="logo"  src="img/logo.png"></li>
-						<li><a href="dashboard.html">Home</a></li>
+						<li><a href="dashboard.jsp">Home</a></li>
 						<li><a href="IncluirModulo">Modulos</a></li>
 						<li><a href="#">Ranking</a></li>
 						<li><a href="#">Material de apoio</a></li>

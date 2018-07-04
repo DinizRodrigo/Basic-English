@@ -14,6 +14,16 @@
         <link rel="stylesheet" href="css/menu.css">
     </head>
     <body>
+        <div id="mymenuda">
+            <div id="mymenu">
+                <li><img id="logo"  src="img/logo.png"></li>
+                <li><a href="Dashboard">Home</a></li>
+                <li><a href="IncluirModulo">Modulos</a></li>
+                <li><a href="#">Ranking</a></li>
+                <li><a href="#">Material de apoio</a></li>
+                <li><a href="logout" style="font-size: medium;float: right">Logout</a></li>
+             </div>
+        </div>
         <header>
             <div id="divmenu"></div>
             <form id="form_acao" method = "post">
@@ -127,7 +137,7 @@
                     <div class="col-sm-2"></div>
                 </div> 
             </form>
-
+            <form id="form_att">
                 <div class="row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
@@ -177,7 +187,7 @@
                         </div>
                     <div class="col-sm-2"></div>
                 </div> 
-            
+            </form>
         </header>
     </body>
 </html>

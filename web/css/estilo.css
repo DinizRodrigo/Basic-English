@@ -23,8 +23,8 @@ body{
 }
 
 @font-face {
-	font-family: Kaushan Script;
-	/*src: url('../Fonte/KaushanScript-Regular.ttf');*/
+	font-family: Berton Roman;
+	src: url('../Fonte/Berton-Roman-trial.ttf');
 }
 p{
 	top: 10px;
