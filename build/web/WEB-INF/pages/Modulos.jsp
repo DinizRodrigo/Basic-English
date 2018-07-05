@@ -21,7 +21,7 @@
                 <li><a href="IncluirModulo">Modulos</a></li>
                 <li><a href="#">Ranking</a></li>
                 <li><a href="#">Material de apoio</a></li>
-                <li><a href="logout" style="font-size: medium;float: right">Logout</a></li>
+                <li><a href="logout" style="font-size: small;float: right">Logout</a></li>
              </div>
         </div>
         <header>
@@ -137,7 +137,7 @@
                     <div class="col-sm-2"></div>
                 </div> 
             </form>
-            <form id="form_att">
+            <div id="form_att">
                 <div class="row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
@@ -154,23 +154,27 @@
                                       </thead>
                                         <tbody id="modulos_existentes"> 
                                             <c:forEach  items="${modulos}" var="modulo">
-                                                <tr>
-                                                    <form id="form_atualizar" method = "post">
-                                                        <input style="display: none" name="atualizar"/>
+                                                    <tr>
                                                         <td id="td_idmodulos">${modulo.id} </td>
                                                         <td id="td_modulos">${modulo.nomemodulo} </td>
                                                         <td>
-                                                            <input type="radio"  name="podeAtualizar"> 
-                                                            <input style="display: none" type="text"  name="modulo-id" value="${modulo.id}">
-                                                            <div class="input-group mb-3">
-                                                                <input type="text" class="form-control" placeholder="Novo nome do modulo" name="novoNome">
-                                                                    <div class="input-group-append">
-                                                                        <button class="btnbtn-success" type="submit">Atualizar</button>
-                                                                    </div>
-                                                            </div>
+                                                            <form method="post">
+                                                                <input style="display: none" name="atualizar"/>
+                                                                <input type="radio"  name="podeAtualizar">
+                                                                <input style="display: none" type="text"  name="modulo-id" value="${modulo.id}">
+                                                                <div class="input-group mb-3">
+                                                                    <input type="text" class="form-control" placeholder="Novo nome do modulo" name="novoNome">
+                                                                        <div class="input-group-append">
+                                                                            <script> 
+                                                                                function atualizado() {
+                                                                                    alert ("Atualizado com sucesso");}
+                                                                            </script>
+                                                                            <button class="btn btn-secondary" type="submit" id="btn_atualizar_modulo" onclick="atualizado()">Atualizar</button>
+                                                                        </div>
+                                                                </div>
+                                                            </form>
                                                         </td>    
-                                                    </form>    
-                                                </tr>
+                                                    </tr>
                                              </c:forEach>
                                         </tbody>
                                     </table>
@@ -187,7 +191,7 @@
                         </div>
                     <div class="col-sm-2"></div>
                 </div> 
-            </form>
+            </div>
         </header>
     </body>
 </html>

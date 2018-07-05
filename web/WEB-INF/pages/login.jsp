@@ -39,7 +39,7 @@ and open the template in the editor.
 			  			<div class="form-group row">
 			  				<button type="submit" class="btn btn-primary" id="btnLogin" >Logar</button>
                                                         <div class="col-sm-7"></div>
-                                                        <a class="btn btn-link" href="Cadastro.html" role="button">Cadastre-se</a>
+                                                        <a class="btn btn-link" href="Cadastro" role="button">Cadastre-se</a>
                                                 </div>
                                                 
                                                     

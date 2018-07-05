@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/NetBeansProjects/Basic%20English/web/js/modulo_professor.js</file>
+            <file>file:/C:/NetBeansProjects/Basic%20English/src/java/com/basicenglish/model/Modulo.java</file>
+            <file>file:/C:/NetBeansProjects/Basic%20English/web/WEB-INF/pages/Modulos.jsp</file>
+            <file>file:/C:/NetBeansProjects/Basic%20English/src/java/com/basicenglish/actions/ModuloAction.java</file>
+        </group>
     </open-files>
 </project-private>
